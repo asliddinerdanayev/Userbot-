@@ -6,7 +6,7 @@ from .. import loader
 from asyncio import sleep
 class AMod(loader.Module):
 
-	strings = {"name": "Men seni sevaman"}
+	strings = {"name": "Men seni sevaman❤️"}
 	
 	async def watcher(self, message):
 		if message.text != ".sevgi":
